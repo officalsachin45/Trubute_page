@@ -1,0 +1,48 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+}
+.title{
+    text-align: center;
+    margin-bottom: 1rem; 
+}
+.subtitle{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.tribute{
+    align-items: center;
+    color: black;
+    display: grid;
+    background: aliceblue;
+    max-width: 70rem;
+    padding: 0px 0px 0px 1rem;
+    grid-template-columns: 2fr 2fr;
+    margin: auto;
+}
+.tribute img{
+    max-width: 100%;
+}
+.tribute p{
+    text-align: center;
+    font-size: 2rem;
+}
+.bio{
+    margin: 2rem auto;
+    padding: 0px 1rem;
+    max-width: 40rem;
+}
+.bio h2{ 
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height:1;
+}
+.bio p{
+    font-size: 1.3rem;
+    line-height: 1.4;
+
+}
+.bio hr{
+    margin-top: 4rem;
+}
